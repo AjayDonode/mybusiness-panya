@@ -1,0 +1,9 @@
+datasource.driverClassName=oracle.jdbc.driver.OracleDriver
+datasource.url=jdbc:oracle:thin:@localhost:1521:xe
+datasource.username=panya
+datasource.password=panya1
+
+spring.jpa.hibernate.ddl-auto=create
+spring.jpa.hibernate.show-sql=true
+spring.jpa.hibernate.dialect=org.hibernate.dialect.Oracle10gDialect
+
